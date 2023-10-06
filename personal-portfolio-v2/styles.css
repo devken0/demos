@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* universal-selector*/
+*{
+  box-sizing: border-box;
+}
+
 /* ids */
-#about{
+/*#about{
   padding-top:100px;  
   font-size:50px;
 }
 #contact{
   padding-top:100px;
-  padding-bottom: 30px;
   font-size:50px;
 }
 /*#navtitle{
@@ -32,10 +36,19 @@ label.logo{
   padding-left: 50px;
   font-weight:500;
 }
+.pagehead{
+  padding-top:100px;
+  font-size: 50px;
+}
 .container{
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 0.1rem;
+}
+.cont{
+  position: relative;
+  width: 50%;
+  max-width: 900;
 }
 .intro{
   min-height: 100vh;
@@ -78,6 +91,12 @@ label.logo{
   font-weight: bold;
   cursor: pointer;
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+}
+.project-gallery{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(10, 5vw);
+  grid-gap: 0px;
 }
 footer .copy {
   color: gray;
