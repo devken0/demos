@@ -95,7 +95,7 @@ label.logo{
 .project-gallery{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(10, 5vw);
+  grid-template-rows: repeat(5, 15vw);
   grid-gap: 0px;
 }
 footer .copy {
