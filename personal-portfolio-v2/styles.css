@@ -45,11 +45,6 @@ label.logo{
   margin: 0 auto;
   padding: 0 0.1rem;
 }
-.cont{
-  position: relative;
-  width: 50%;
-  max-width: 900;
-}
 .intro{
   min-height: 100vh;
   background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.5)), 
