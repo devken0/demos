@@ -7,6 +7,19 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
+<script>
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
 <body>
   <header>
     <div class="navbar">
@@ -16,7 +29,7 @@
           <a href="#discover" id="current">Discover</a>
           <a href="#login">Login</a>
           <a href="#join">Help</a>
-          <a href="#cart"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="#cart"><i></i></a>
           <!-- <a href="#about"></a> -->
         </div>
       </div>
@@ -29,7 +42,7 @@
         <p>Trending: ramen, pizza, pasta, coffee, tea </p>
         <form>
           <input type="text" class="search-input" placeholder="Type your location here..">
-          <button type="submit" class="search-btn">
+          <button onclick="getLocation()" type="submit" class="search-btn">
             <i class="fa-solid fa-location-crosshairs"></i>
           </button>
         </form>
@@ -38,7 +51,7 @@
   </header>
   <div class="catalog">
     <div class="heading">
-      <h3>Food <span>Choices</span></h3>
+      <h3>Food <span>Catalog</span></h3>
     </div>
     <div class="box">
       <div class="columns">
