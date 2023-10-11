@@ -1,3 +1,3 @@
 # My Web Development Learning Environment
 
-This repository is intended for keeping my school projects in Web Development.
+This repository is intended for keeping the laboratory demos in Web Development.
