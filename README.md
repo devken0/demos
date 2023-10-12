@@ -1,3 +1,3 @@
-# My Web Development Learning Environment
+# My Learning Environment
 
-This repository is intended for keeping the laboratory demos in Web Development.
+This repository is intended for keeping the laboratory demos in a variety of tech topics/courses/subjects.
