@@ -80,7 +80,7 @@ End of statement -> ';'
 <script src="pathtojsfile"></script>
 ```
 
-## Variables Let and Const 
+## Variables Let and Const
 
 * Boolean data type
 * Let
@@ -91,7 +91,7 @@ End of statement -> ';'
 
 `var` - function scoped, declares variable, optionally initializing to a value
 `let` - block-scoped, local var, blocks of code indicated using {}
-`const` - block-scoped, read-only constant, unchangable 
+`const` - block-scoped, read-only constant, unchangable
 
 ```java
 const foo = Object.freeze(foo); // prevents changing the properties
@@ -100,17 +100,3 @@ console.log(foo.bar); // 2
 Object.seal(foo); // prevents changing the structure 
 foo.baz = false; // TypeError
 ```
-
-## Data Types 
-
-* Null
-* Undefined
-* Declare multiple variables
-* CamelCase
-* Variable naming rules
-
-
-
-
-
-
