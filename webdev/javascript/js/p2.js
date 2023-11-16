@@ -28,3 +28,16 @@ console.log(getArea(23, 20));
 // hoisting
 let bar=true;
 console.log(bar);
+
+// Arrow functions
+const sum4=(num7, num8) => num7+num8;
+console.log(sum4(20, 50));
+
+// Object Creation
+// Constructor vs Object Literals
+
+
+
+
+
+
